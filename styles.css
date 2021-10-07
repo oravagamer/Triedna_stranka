@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+}
+.task_bar {
+    overflow: hidden;
+    background-color: darkblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.task_bar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.task_bar a:hover {
+    background-color: #0b27b5;
+    color: white;
+}
+.task_bar_active {
+    background-color: #0b27b5;
+    color: white;
+}
+.task_bar a {
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+.spse {
+    position: absolute;
+    left: 95%;
+    top: -25%;
+}
+.edupage {
+    position: absolute;
+    left: 90%;
+    top: -25%;
+}
