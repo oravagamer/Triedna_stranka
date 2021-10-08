@@ -1,30 +1,57 @@
 body {
-    background-color: white;
+    background-color: #02164d;
 }
 .task_bar {
     overflow: hidden;
     background-color: darkblue;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
 }
 .task_bar a {
-    float: left;
-    display: block;
+    margin: 0 auto;
+    float: left ;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
     font-size: 17px;
 }
 .task_bar a:hover {
-    background-color: #0b27b5;
+    background-color: #082def;
     color: white;
 }
 .task_bar_active {
-    background-color: #061d91;
+    background-color: #0b27b5;
     color: white;
 }
 .task_bar a {
     font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+.task_bar a.pictures_with_href {
+    padding: 7.5px 20px;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #c5c4c4;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4356ff;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #0131c4;
+}
+.test {
+    height: 80em;
+    width: 100em;
+    background-color: white;
+    margin: auto;
 }
